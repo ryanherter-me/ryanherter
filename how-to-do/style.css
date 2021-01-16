@@ -1,0 +1,59 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+  background: black;
+  height: 100%;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  color: goldenrod;
+}
+
+h2 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: goldenrod;
+}
+h3 {
+  font-size: 2em;
+  color: red;
+}
+p {
+  color: white;
+  font-size: 1.2em;
+}
+footer {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/* unvisited link */
+a:link {
+  color: goldenrod;
+  font-size: 1.5em;
+}
+
+/* visited link */
+a:visited {
+  color: goldenrod;
+}
+
+/* mouse over link */
+a:hover {
+  color: goldenrod;
+}
+
+/* selected link */
+a:active {
+  color: goldenrod;
+}
+.title {
+  color: gold;
+}
