@@ -1,0 +1,36 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+}
+p {
+  font-size: 2em;
+}
+/* unvisited link */
+a:link {
+  color: white;
+  font-size: 2em;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
