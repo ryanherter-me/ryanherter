@@ -1,0 +1,70 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+  background: black;
+  height: 100%;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  font-size: 2em;
+}
+h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 1.5em;
+}
+p {
+  color: white;
+  font-size: 1.5em;
+}
+footer {
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/* unvisited link */
+a:link {
+  color: gold;
+  font-size: 1.5em;
+}
+
+/* visited link */
+a:visited {
+  color: gold;
+}
+
+/* mouse over link */
+a:hover {
+  color: gold;
+}
+
+/* selected link */
+a:active {
+  color: gold;
+}
+
+html {
+  overflow: auto;
+}
+
+
+iframe {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  border: none;
+}
+iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
